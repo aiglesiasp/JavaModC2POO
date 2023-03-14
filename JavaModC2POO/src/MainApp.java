@@ -17,8 +17,9 @@ public class MainApp {
 		System.out.println(persona1);
 		
 		//EJERCICIO 2
-		Password password = new Password();
-		System.out.println(password);
+		Password password = new Password(15);
+		System.out.println("Longitud del password: "+password.getLongitud());
+		System.out.println("Password: "+password.getContraseña());
 		
 		//EJERCICIO 3
 		Electrodomestico electrodomestico = new Electrodomestico();
