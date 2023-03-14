@@ -35,6 +35,14 @@ public class Password {
 		return builder.toString();
 	}
 	
+	
+	
+	@Override
+	public String toString() {
+		return "Password [longitud=" + longitud + ", contraseña=" + contraseña + "]";
+	}
+	
+
 	//GETTERS Y SETTERS
 	public int getLongitud() {
 		return longitud;

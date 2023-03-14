@@ -2,6 +2,7 @@
 public class Persona {
 	
 	static final char sexoHombre = 'H';
+	static final String DNI = "123456789Z";
 	
 	//ATRIBUTOS
 	private String nombre;
@@ -26,7 +27,7 @@ public class Persona {
 	public Persona() {
 		this.nombre = "";
 		this.edad = 0;
-		this.dni = "";
+		this.dni = DNI;
 		this.sexo = sexoHombre;
 		this.peso = 0.0;
 		this.altura = 0.0;
@@ -35,7 +36,7 @@ public class Persona {
 	public Persona(String nombre, int edad, char sexo) {
 		this.nombre = nombre;
 		this.edad = edad;
-		this.dni = "";
+		this.dni = DNI;
 		this.sexo = sexo;
 		this.peso = 0.0;
 		this.altura = 0.0;
@@ -49,4 +50,12 @@ public class Persona {
 		this.peso = peso;
 		this.altura = altura;
 	}
+	
+	//METODOS
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", edad=" + edad + ", dni=" + dni + ", sexo=" + sexo + ", peso=" + peso
+				+ ", altura=" + altura + "]";
+	}
+	
 }
