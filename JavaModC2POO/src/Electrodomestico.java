@@ -9,10 +9,10 @@ public class Electrodomestico {
 	static final double weight = 5.0;
 	
 	//ATRIBUTOS
-	private double precioBase;
-	private String color;
-	private char consumoEnergetico;
-	private double peso;
+	protected double precioBase;
+	protected String color;
+	protected char consumoEnergetico;
+	protected double peso;
 	
 	
 	//CONSTRUCTORES
