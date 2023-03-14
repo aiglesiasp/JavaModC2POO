@@ -20,11 +20,11 @@ public class MainApp {
 		
 		//EJERCICIO 2
 		Password password = new Password();
-		System.out.println(password.generarPassword(15));
+		//System.out.println(password.generarPassword(15));
 		//EJERCICIO 3
-		
+		Electrodomestico electrodomestico = new Electrodomestico();
 		//EJERCICIO 4
-
+		Serie serie = new Serie();
 	}
 
 }

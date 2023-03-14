@@ -34,4 +34,23 @@ public class Password {
 		//TODO: Generar password
 		return builder.toString();
 	}
+	
+	//GETTERS Y SETTERS
+	public int getLongitud() {
+		return longitud;
+	}
+
+	public void setLongitud(int longitud) {
+		this.longitud = longitud;
+	}
+
+	public String getContraseña() {
+		return contraseña;
+	}
+
+	public void setContraseña(String contraseña) {
+		this.contraseña = contraseña;
+	}
+	
+	
 }
