@@ -38,7 +38,4 @@ public class Serie {
 		this.genero = genero;
 		this.creador = creador;
 	}
-	
-	
-
 }
